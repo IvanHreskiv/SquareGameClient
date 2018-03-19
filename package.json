@@ -2,7 +2,7 @@
   "name": "reduxClient",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://IvanHreskiv.github.io/squaregame",
+  "homepage": "https://IvanHreskiv.github.io/squaregame",
   "devDependencies": {
     "dotenv": "^5.0.1",
     "gh-pages": "^1.1.0",
