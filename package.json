@@ -5,6 +5,7 @@
   "homepage": "http://IvanHreskiv.github.io/squaregame",
   "devDependencies": {
     "dotenv": "^5.0.1",
+    "gh-pages": "^1.1.0",
     "react-scripts": "1.0.17"
   },
   "dependencies": {
@@ -33,6 +34,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=node",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   }
 }
