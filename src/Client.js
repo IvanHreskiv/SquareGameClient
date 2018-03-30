@@ -1,5 +1,5 @@
 const LOCAL_STORAGE_KEY = 'sr-spotiafy-fake-auth';
-const SERVER_HOST = 'http://squaregame.com:3001';
+const SERVER_HOST = 'http://localhost/server';
 
 
 class Client {
@@ -39,7 +39,7 @@ class Client {
 
 
   login(data) {
-    return fetch( SERVER_HOST + '/api/login', {
+    return fetch( SERVER_HOST + '/auth/login', {
       method: 'POST',
       headers: new Headers({
         'content-type': 'application/json'
